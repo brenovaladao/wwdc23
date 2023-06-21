@@ -1,5 +1,5 @@
 //
-//  ListItem.swift
+//  MainListItem.swift
 //  WWDC23
 //
 //  Created by Breno Valadão on 21/06/23.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-enum ListItem: Int, Identifiable, CaseIterable {
+enum MainListItem: Int, Identifiable, CaseIterable {
     case unevenRoundedRectangle
 
     var id: String { rawValue.description }

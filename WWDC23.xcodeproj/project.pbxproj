@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		408F225B2A42E13F00B8B76A /* WWDC23App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F225A2A42E13F00B8B76A /* WWDC23App.swift */; };
-		408F225D2A42E13F00B8B76A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F225C2A42E13F00B8B76A /* ContentView.swift */; };
+		408F225D2A42E13F00B8B76A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F225C2A42E13F00B8B76A /* MainView.swift */; };
 		408F225F2A42E14000B8B76A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 408F225E2A42E14000B8B76A /* Assets.xcassets */; };
 		408F22622A42E14000B8B76A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 408F22612A42E14000B8B76A /* Preview Assets.xcassets */; };
 		408F22692A42E1BC00B8B76A /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 408F22682A42E1BC00B8B76A /* Localizable.xcstrings */; };
-		408F226C2A42E4D900B8B76A /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F226B2A42E4D900B8B76A /* ListItem.swift */; };
+		408F226C2A42E4D900B8B76A /* MainListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F226B2A42E4D900B8B76A /* MainListItem.swift */; };
 		408F226F2A42E51E00B8B76A /* UnevenRoundedRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F226E2A42E51E00B8B76A /* UnevenRoundedRectangleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		408F22572A42E13F00B8B76A /* WWDC23.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWDC23.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		408F225A2A42E13F00B8B76A /* WWDC23App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDC23App.swift; sourceTree = "<group>"; };
-		408F225C2A42E13F00B8B76A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		408F225C2A42E13F00B8B76A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		408F225E2A42E14000B8B76A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		408F22612A42E14000B8B76A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		408F22682A42E1BC00B8B76A /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = SOURCE_ROOT; };
-		408F226B2A42E4D900B8B76A /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		408F226B2A42E4D900B8B76A /* MainListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListItem.swift; sourceTree = "<group>"; };
 		408F226E2A42E51E00B8B76A /* UnevenRoundedRectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnevenRoundedRectangleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,8 +102,8 @@
 		408F226A2A42E4CC00B8B76A /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				408F225C2A42E13F00B8B76A /* ContentView.swift */,
-				408F226B2A42E4D900B8B76A /* ListItem.swift */,
+				408F225C2A42E13F00B8B76A /* MainView.swift */,
+				408F226B2A42E4D900B8B76A /* MainListItem.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -188,8 +188,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				408F226C2A42E4D900B8B76A /* ListItem.swift in Sources */,
-				408F225D2A42E13F00B8B76A /* ContentView.swift in Sources */,
+				408F226C2A42E4D900B8B76A /* MainListItem.swift in Sources */,
+				408F225D2A42E13F00B8B76A /* MainView.swift in Sources */,
 				408F226F2A42E51E00B8B76A /* UnevenRoundedRectangleView.swift in Sources */,
 				408F225B2A42E13F00B8B76A /* WWDC23App.swift in Sources */,
 			);
