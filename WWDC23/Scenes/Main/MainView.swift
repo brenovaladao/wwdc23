@@ -9,11 +9,29 @@ import SwiftUI
 
 struct MainView: View {
     var body: some View {
-        NavigationStack {
+        NavigationSplitView {
             List(MainListItem.allCases) { item in
-                Text(item.displayName)
+                NavigationLink(value: item) {
+                    Text(item.displayName)
+                }
             }
             .navigationTitle("WWDC 23")
+            .navigationDestination(
+                for: MainListItem.self,
+                destination: handleDestination
+            )
+        } detail: {
+            Text("Select an item")
+        }
+    }
+}
+
+private extension MainView {
+    func handleDestination(_ item: MainListItem) -> some View {
+        switch item {
+        case .unevenRoundedRectangle:
+            UnevenRoundedRectangleView()
+                .navigationTitle(item.displayNameAbbreviated)
         }
     }
 }
